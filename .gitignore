@@ -1,49 +1,25 @@
-##################################
-# Keil MDK-ARM
-##################################
+# Ignore everything
+*
 
-*.uvguix.*
-*.uvoptx
-*.bak
-*.dep
-*.lnp
-*.plg
+# Allow folders
+!*/
 
-Objects/
-Listings/
-DebugConfig/
+# Keep git files
+!.gitignore
+!README.md
 
-##################################
-# STM32CubeIDE
-##################################
+# Keep all IOC files
+!*.ioc
 
-.metadata/
-.settings/
+# Keep Core folders
+!**/Core/
+!**/Core/**
 
-##################################
-# Build output
-##################################
-
-Debug/
-Release/
-
-*.axf
-*.bin
-*.hex
-*.map
-*.o
-*.d
-
-##################################
-# OS files
-##################################
-
-.DS_Store
-Thumbs.db
-
-##################################
-# Temporary files
-##################################
-
-*.tmp
-*.log
+# Explicitly ignore common STM32 folders
+**/Drivers/**
+**/MDK-ARM/**
+**/CMSIS/**
+**/Debug/**
+**/Release/**
+**/Objects/**
+**/Listings/**
