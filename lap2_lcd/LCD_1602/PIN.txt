@@ -1,0 +1,11 @@
+RS	==>	PA1
+RW	==>	PA2
+E	==>	PA3
+D0	==>	PB1
+D1	==>	PB2
+D2	==>	PB3
+D3	==>	PB4
+D4	==>	PB5
+D5	==>	PB6
+D6	==>	PB7
+D7	==>	PB8

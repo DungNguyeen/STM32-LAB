@@ -7,7 +7,7 @@
 # Keep git files
 !.gitignore
 !README.md
-
+!PIN.txt
 # Keep all IOC files
 !*.ioc
 
